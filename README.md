@@ -1,1 +1,3 @@
 # Computer_Science
+
+공부하기 싫어서 만든... CS 레포...
