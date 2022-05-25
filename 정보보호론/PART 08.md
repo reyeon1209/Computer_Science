@@ -188,3 +188,98 @@
 ### 98. FDS (Fraud Detection System)
 - 이상거래 탐지 시스템
 - 거래 패턴을 분석하여 금융 사기 유형 거래를 사전에 탐지/차단
+
+
+### 105. OWASP 웹 취약점 TOP 10
+
+- 취약한 접근통제 (Broken Access Control)
+- 암호화 오류 (Cryptographic Failures)
+- 인젝션 (Injection)
+- **안전하지 않은 설계 (Insecure Design)**
+- 잘못된 보안 구성 (Security Misconfiguration)
+- 취약하고 오래된 요소 (Vulnerable and Outdated Components)
+- 식별 및 인증 오류 (Indentification and Authentication Failures)
+- **소프트웨어 및 데이터 무결성 오류 (Software and Data Integrity Failures)**
+- 보안 로깅 및 모니터링 오류 (Security Logging and Monitoring Failures)
+- **서버 측 요청 위조 (Server-Side Request Forgery)**
+
+
+### 136. SQL Injection 공격 보안 대책
+- Prepared Statement 객체 등을 이용하여 DB에 컴파일된 퀴리문을 전달
+
+
+### 138. 웹쉘 (Web Shell)
+- 파일 업로드 취약점 이용
+- 웹 서버에 명령을 실행하여 관리자 권한 획득
+
+
+### 139. 리버스 텔넷 (Reverse Telnet)
+- 웹 서버는 보통 방화벽 안에 존재
+- 방화벽 내부에서 외부로 나가는 패킷에 대한 아웃바운드 필터링이 없는 취약점 이용
+
+
+### 144. 인증 우회 공격
+- XQuery를 사용하여 XML 데이터에 대한 동적 쿼리 생성 시 외부 입력에 대한 유효성 검증 누락
+
+
+### 147. 비밀번호 설계
+- 해시함수 실행은 서버에서
+
+
+### 150. Injection 취약점 갖는 PHP 함수
+- exec: 시스템 호출 시 결과 저장
+- system: 시스템 호출 시 결과 출력
+- eval: php 코드 평가
+
+
+### 152. 웹 방화벽
+- WebKnight, ModSecurity
+
+
+### 160. SSID (Service Set ID)
+- 무선 네트워크 access point 이름
+- 무선 랜을 통해 전송되는 패킷들의 각 헤더에 붙는 고유 식별자
+
+
+### 163. 무선랜 보호 기술
+- WiFi Protected Access Enterprise
+- WiFi Protected Access
+- Wired Equivalent Privacy
+
+
+### 169. 185. 무선 통신 보안 기술
+- 인증 및 인가, 과금을 위해 RADIUS 프로토콜 사용
+- RADIUS(Remote Authentication Dial-In User Services): AP와 인증서버 사이, 서버/클라이언트 방식으로 동작, 응용계층
+
+
+### 182. 183. 무선 LAN 보안
+- WEP: 64비트 WEP 키가 수분 내 노출되어 보안 취약
+- WAP: 48비트 길이의 IV(초기벡터)를 사용해 인증
+
+
+### 187.KRACK (Key Reinstallation Attacks)
+- WPA2 공격
+- 4-way handshake 과정에서 메시지 조작 & 재전송
+- Diameter 프로토콜: RADIUS보다 세션관리, 보안 측면에서 개선/확장
+
+
+### 191. IEEE 802.11i의 키 관리
+- PSK(Pre-Shared Key): AP와 STA가 공유하는 비밀키
+- MSK(Master Session Key): 인증 단계에서 생성
+- PMK(Pairwise Master Key): PSK라면 PSK를 PMK로 사용, MSK라면 MSK 일부를 PMK로 사용
+- PTK(Pairwise Transit Key): AP와 STA가 상호 인증을 끝내고 통신 시 사용, PMK를 사용하여 생성
+- TK(Temporal Key): PTK의 일부
+
+
+### 193. 194. 195. 196. 블루투스 취약점
+- OPP(OBEX Push Profile): 블루투스 장치끼리 인증 없이 정보 교환
+- 블루스나프: 주소록, 달력 등 저장된 데이터 내용 열람
+- 블루프린팅: 블루투스 장치 검색 & 모델 확인
+- 블루버그: 장치에 대한 접근권한 획득
+- 블루재킹: 같은 메시지를 메일처럼 전송
+- 블루본: 원격 제어 권한 획득
+
+
+### 199. 안드로이드 보안 체계
+- 응용 프로그램은 샌드박스 프로세스 내부에서 실행
+- 시스템과 다른 응용 프로그램 접근 통제
